@@ -30,8 +30,11 @@ module.exports = {
     },
   },
   rules: {
-    'react/react-in-jsx-scope': 'off',
+    'react/react-in-jsx-scope': 0,
     quotes: 0,
-    'react/jsx-key': 'off',
+    'react/jsx-key': 0,
+    'react/jsx-filename-extension': 0,
+    'react/state-in-constructor': 0,
+    'react/forbid-prop-types': 0,
   },
 };
